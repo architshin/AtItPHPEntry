@@ -1,5 +1,5 @@
 <?php
-$foo = 124;
+$foo = 123;
 if($foo == 123) {
 	print("fooの値は123です<br>");
 }
