@@ -9,6 +9,7 @@ switch($foo) {
 		break;
 	case 3:
 		print("可です<br>");
+		break;
 	default:
 		print("不可です<br>");
 		break;

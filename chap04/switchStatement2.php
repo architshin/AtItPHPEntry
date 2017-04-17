@@ -17,10 +17,12 @@ switch($foo) {
 	case 10:
 	case 11:
 		print("秋です<br>");
+		break;
 	case 12:
 	case 1:
 	case 2:
 		print("冬です<br>");
+		break;
 	default:
 		print("表示されたらおかしいです<br>");
 		break;
