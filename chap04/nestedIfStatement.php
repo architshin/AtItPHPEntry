@@ -2,8 +2,7 @@
 $foo = rand(-10, 10);
 if($foo == 0) {
 	print("fooの値は0です<br>");
-}
-else {
+} else {
 	if($foo > 0) {
 		print("fooは正の数です<br>");
 	}

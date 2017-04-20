@@ -2,11 +2,9 @@
 $foo = rand(-10, 10);
 if($foo == 0) {
 	print("fooの値は0です<br>");
-}
-elseif($foo > 0) {
+} elseif($foo > 0) {
 	print("fooは正の数です<br>");
-}
-else {
+} else {
 	print("fooは負の数です<br>");
 }
 print("fooの値は{$foo}でした");
