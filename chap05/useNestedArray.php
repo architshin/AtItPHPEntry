@@ -1,16 +1,16 @@
 <?php
-$colors = array(
-	"magenta" => array(
+$colors = [
+	"magenta" => [
 		"red" => 255,
 		"green" => 0,
 		"blue" => 255,
-	),
-	"black" => array(
+	],
+	"black" => [
 		"red" => 0,
 		"green" => 0,
 		"blue" => 0,
-	),
-); // (1)
+	],
+]; // (1)
 
 print("<pre>");
 var_dump($colors);

@@ -1,5 +1,5 @@
 <?php
-$greek = array("alpha", "beta", "gamma");  // (1)
+$greek = ["alpha", "beta", "gamma"];  // (1)
 
 print("<pre>");
 var_dump($greek);
