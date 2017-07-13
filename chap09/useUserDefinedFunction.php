@@ -1,5 +1,6 @@
 <?php
-function multiplyArray($array) {
+function multiplyArray($array)
+{
 	$num = 1;
 	foreach($array as $value) {
 		$num *= $value;
