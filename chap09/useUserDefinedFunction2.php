@@ -5,8 +5,9 @@ function multiplyArray($array)
 	foreach($array as $value) {
 		$num *= $value;
 	}
-	print("配列の計算結果: ".$num);
+	return $num;
 }
 
 $list = [5, 4, 8, 6, 2, 9];
-multiplyArray($list);
+$result = multiplyArray($list);
+print("配列の計算結果: ".$result);
