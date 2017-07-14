@@ -1,4 +1,13 @@
 <?php
+function multiplyArray($array)
+{
+	$num = 1;
+	foreach($array as $value) {
+		$num *= $value;
+	}
+	return $num;
+}
+
 function multiplyArray2($array)
 {
 	$num = 1;
@@ -7,6 +16,3 @@ function multiplyArray2($array)
 	}
 	print("配列の計算結果: ".$num);
 }
-
-$list = [5, 4, 8, 6, 2, 9];
-multiplyArray2($list);
