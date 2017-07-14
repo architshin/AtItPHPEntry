@@ -1,5 +1,5 @@
 <?php
-// require_once("functions.php");
+require_once("functions.php");
 
 $list1 = [5, 4, 8, 6, 2, 9];
 $result = multiplyArray($list1);
