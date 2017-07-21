@@ -1,5 +1,5 @@
 <?php
-function multiplyArray($array)
+function multiplyArray(array $array): float
 {
 	$num = 1;
 	foreach($array as $value) {
@@ -8,7 +8,7 @@ function multiplyArray($array)
 	return $num;
 }
 
-function multiplyArray2($array)
+function multiplyArray2(array $array)
 {
 	$num = 1;
 	foreach($array as $value) {

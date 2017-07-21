@@ -1,5 +1,5 @@
 <?php
-function multiplyArray2($array)
+function multiplyArray2(array $array)
 {
 	$num = 1;
 	foreach($array as $value) {
