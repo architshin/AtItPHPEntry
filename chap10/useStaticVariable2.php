@@ -3,7 +3,7 @@ function plus(int $value)
 {
 	static $num = 0;
 	$num += $value;
-	print("<br>配列の計算結果: ".$num);
+	print("<br>計算結果: ".$num);
 }
 
 print("plusを3で呼出");
