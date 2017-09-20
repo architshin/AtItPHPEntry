@@ -2,7 +2,7 @@
 $lName = "齊藤";
 $fName = "新三";
 
-$concat1 = function($firstName, $lastName)
+$concat1 = function(string $firstName, string $lastName): string
 {
 		return $lastName." ".$firstName;
 };
@@ -10,7 +10,7 @@ $concat1 = function($firstName, $lastName)
 $concatName1 = $concat1($fName, $lName);
 print("無名関数の変数を使っての結合結果: ".$concatName1."<br>");
 
-$concat2 = function() use ($fName, $lName)
+$concat2 = function() use ($fName, $lName): string
 {
 		return $lName." ".$fName;
 };

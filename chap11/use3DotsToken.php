@@ -1,5 +1,5 @@
 <?php
-function concatenate($firstName, $lastName, $space = "")
+function concatenate(string $firstName, string $lastName, string $space = ""): string
 {
 	return $lastName.$space.$firstName;
 }

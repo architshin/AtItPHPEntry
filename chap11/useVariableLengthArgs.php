@@ -1,5 +1,5 @@
 <?php
-function concatenate(...$name)
+function concatenate(string ...$name): string
 {
 	$concatenatedName = "";
 	for($i = 0; $i < count($name); $i++) {

@@ -1,10 +1,10 @@
 <?php
-function concatenateSpace($firstName, $lastName)
+function concatenateSpace(string $firstName, string $lastName): string
 {
 	return $lastName." ".$firstName;
 }
 
-function useConcatenate($name, $func)
+function useConcatenate(array $name, callable $func)
 {
 	$concatName = $func(...$name);
 	print($func."関数での結合結果: ".$concatName."<br>");

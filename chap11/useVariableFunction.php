@@ -1,10 +1,10 @@
 <?php
-function concatenateSpace($firstName, $lastName)
+function concatenateSpace(string $firstName, string $lastName): string
 {
 	return $lastName." ".$firstName;
 }
 
-function concatenateDot($firstName, $lastName)
+function concatenateDot(string $firstName, string $lastName): string
 {
 	return $lastName."・".$firstName;
 }
