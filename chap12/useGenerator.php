@@ -10,7 +10,7 @@ function yieldValues()
 	yield $ans;
 }
 
-$ans = yieldValues();
-foreach($ans as $value) {
+$values = yieldValues();
+foreach($values as $value) {
 	print($value."<br>");
 }

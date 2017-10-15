@@ -10,9 +10,9 @@ function returnValues(): int
 	return $ans;
 }
 
-$ans1 = returnValues();
-print("1回目: ".$ans1);
-$ans2 = returnValues();
-print("<br>2回目: ".$ans2);
-$ans3 = returnValues();
-print("<br>3回目: ".$ans3);
+$value1 = returnValues();
+print("1回目: ".$value1);
+$value2 = returnValues();
+print("<br>2回目: ".$value2);
+$value3 = returnValues();
+print("<br>3回目: ".$value3);
