@@ -1,5 +1,6 @@
 <?php
-function yieldArrayElement() {
+function yieldArrayElement()
+{
 	$array = [1, 3, 5, 7];
 	foreach($array as $element) {
 		yield $element;

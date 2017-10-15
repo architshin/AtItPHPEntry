@@ -1,13 +1,15 @@
 <?php
-function randGenerator($count)
+function createRandArray(int $count): array
 {
+	$array = [];
 	for($i = 1; $i <= $count; $i++) {
-		yield rand(1, 10);
+		$array[] = rand(1, 10);
 	}
+	return $array;
 }
 
 $sum = 0;
-foreach(randGenerator(10) as $value) {
+foreach(createRandArray(10) as $value) {
 	print("現在の乱数: ".$value."<br>");
 	$sum += $value;
 }

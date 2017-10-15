@@ -1,12 +1,13 @@
 <?php
-function randGenerator($count) {
+function randGenerator($count)
+{
 	for($i = 1; $i <= $count; $i++) {
 		yield $i => rand(1, 10);
 	}
 }
 
 $sum = 0;
-foreach(randGenerator(20) as $num => $value) {
+foreach(randGenerator(10) as $num => $value) {
 	print($num."個目の乱数: ".$value."<br>");
 	$sum += $value;
 }
