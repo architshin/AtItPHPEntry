@@ -6,20 +6,20 @@ class TestScoreWithMethod2
 	public $english = 0;
 	public $japanese = 0;
 
-	function calcSum(): int
+	public function calcSum(): int
 	{
 		$sum = $this->math + $this->english + $this->japanese;
 		return $sum;
 	}
 
-	function calcAve(): float
+	public function calcAve(): float
 	{
 		$sum = $this->calcSum();
 		$ave = $sum / 3;
 		return $ave;
 	}
 	
-	function printScore()
+	public function printScore()
 	{
 		$sum = $this->calcSum();
 		$ave = $this->calcAve();

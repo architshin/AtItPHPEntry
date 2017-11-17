@@ -6,7 +6,7 @@ class TestScoreWithMethod
 	public $english = 0;
 	public $japanese = 0;
 
-	function printScore()
+	public function printScore()
 	{
 		$sum = $this->math + $this->english + $this->japanese;
 		$ave = $sum / 3;
