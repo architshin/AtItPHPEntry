@@ -1,10 +1,18 @@
 <?php
-class TestScoreWithMethod2
+class TestScoreAdv
 {
 	public $name = "";
 	public $math = 0;
 	public $english = 0;
 	public $japanese = 0;
+
+	public function setData(string $name, int $math, int $english, int $japanese)
+	{
+		$this->name = $name;
+		$this->math = $math;
+		$this->english = $english;
+		$this->japanese = $japanese;
+	}
 
 	public function calcSum(): int
 	{

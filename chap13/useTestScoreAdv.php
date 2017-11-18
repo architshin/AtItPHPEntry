@@ -1,18 +1,12 @@
 <?php
-require_once("TestScoreWithMethod2.php");
+require_once("TestScoreAdv.php");
 
-$taro = new TestScoreWithMethod2();
-$taro->name = "たろう";
-$taro->math = 87;
-$taro->english = 92;
-$taro->japanese = 74;
+$taro = new TestScoreAdv();
+$taro->setData("たろう", 87, 92, 74);
 $taro->printScore();
 
-$hanako = new TestScoreWithMethod2();
-$hanako->name = "はなこ";
-$hanako->math = 95;
-$hanako->english = 79;
-$hanako->japanese = 83;
+$hanako = new TestScoreAdv();
+$hanako->setData("はなこ", 95, 79, 83);
 $hanako->printScore();
 
 $taroSum = $taro->calcSum();
