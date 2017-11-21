@@ -1,7 +1,7 @@
 <?php
 require_once("TestScore.php");
 
-function printScore(string $name, int $math, int $english, int $japanese)
+function printScore(string $name, int $math, int $english, int $japanese): void
 {
 	$sum = $math + $english + $japanese;
 	$ave = $sum / 3;
