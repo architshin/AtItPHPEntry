@@ -1,11 +1,16 @@
 <?php
 class TestScoreConstructor
 {
+	//名前プロパティ。
 	private $name = "";
+	//数学点数プロパティ。
 	private $math = 0;
+	//英語点数プロパティ。
 	private $english = 0;
+	//国語点数プロパティ。
 	private $japanese = 0;
 
+	//コンストラクタ。全データを受け取ってプロパティに格納する。
 	public function __construct(string $name, int $math, int $english, int $japanese)
 	{
 		$this->name = $name;
@@ -14,12 +19,14 @@ class TestScoreConstructor
 		$this->japanese = $japanese;
 	}
 
+	//合計点を計算するメソッド。
 	public function calcSum(): int
 	{
 		$sum = $this->math + $this->english + $this->japanese;
 		return $sum;
 	}
 
+	//平均点を計算するメソッド。
 	public function calcAve(): float
 	{
 		$sum = $this->calcSum();
@@ -27,6 +34,7 @@ class TestScoreConstructor
 		return $ave;
 	}
 	
+	//名前、合計、平均を表示するメソッド。
 	public function printScore(): void
 	{
 		$sum = $this->calcSum();
