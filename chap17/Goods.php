@@ -5,8 +5,8 @@ class Goods
 	private $name = "";
 	//商品価格プロパティ。
 	private $price = 0;
-	//商品名と商品価格を設定するメソッド。
-	public function setData(string $name, int $price): void
+	//コンストラクタ。商品名と商品価格を設定する。
+	public function __construct(string $name, int $price)
 	{
 		$this->name = $name;
 		$this->price = $price;
