@@ -13,3 +13,5 @@ $nakatani->throw();
 $nakagami = new BaseballPlayer("中上隆");
 $nakagami->hit();
 $nakagami->throw();
+
+// $hit = new HitTrait();
