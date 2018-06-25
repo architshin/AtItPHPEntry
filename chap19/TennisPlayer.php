@@ -3,6 +3,6 @@ class TennisPlayer extends SportsPlayer
 {
 	use HitTrait;
 
-	//ラケットを表すフィールド。
+	//ラケットを表すプロパティ。
 	private $racket;
 }
